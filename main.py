@@ -8,7 +8,7 @@ from typing import List
 # ==========================================
 # ✅ PALITAN ITO NG TOTOONG NEON CONNECTION STRING MO
 # ==========================================
-DATABASE_URL = "postgresql://user:password@ep-xxx-xxx.us-east-2.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL = "postgresql://neondb_owner:npg_YSydq1E3ojbL@ep-odd-violet-b4wcfpk6-pooler.c-6.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 app = FastAPI()
 
