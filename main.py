@@ -155,7 +155,7 @@ def get_all_users():
     conn.close()
     return {"users": users}
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("🔄 Initializing database...")
     init_db()
     print("🚀 Server ready!")
